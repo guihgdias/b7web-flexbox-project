@@ -1,0 +1,45 @@
+@media only screen and (max-width: 940px) {
+  .main-navigation {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: var(--white);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-100%);
+  }
+  .list {
+    flex-direction: column;
+    gap: 24px;
+    width: 100%
+  }
+  .list li a {
+    width: 100%;
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .mobile-menu {
+    display: flex;
+  }
+
+  #hero-banner .headline h1 {
+    font-size: 3.5rem;
+  }
+  #hero-banner .headline p {
+    font-size: 1.2rem;
+  }
+
+  #content .container {
+    flex-direction: column;
+  }
+
+  footer .ourInfos {
+    flex-direction: column;
+    padding: 60px 20px;
+  }
+}
